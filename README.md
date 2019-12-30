@@ -18,11 +18,13 @@ If you wish to build lockedbox for yourself, you need golang; https://golang.org
 1. Open lockedbox.go
 2. Go to line 46 ("Decryption only allowed at certain times")
 3. Adjust the logic to suit your needs (e.g. I want it allowed every day after 8PM)
-4. Adjust 
+4. Run build in terminal:
 
 ```s
 go build
 ```
+
+5. Adjust values on line 66 slightly, save file
 
 This should create an executable suitable for usage on your system.
 
